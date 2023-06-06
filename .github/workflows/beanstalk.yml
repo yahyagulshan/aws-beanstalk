@@ -31,4 +31,4 @@ jobs:
     - name: Deploy to Elastic Beanstalk
       run: |
         eb init yahya-test --region us-east-1 --platform Node.js
-        eb deploy Yahya-test-env-2
+        eb deploy Yahya-test-env
